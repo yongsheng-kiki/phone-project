@@ -30,6 +30,7 @@ input {
 }
 
 ul, li {
+    font-size: .28rem;
     list-style: none;
 }
 
@@ -53,7 +54,7 @@ img {
 /*以上是公共样式：清除各自标签的默认样式*/
 
 html {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 html, body {
@@ -181,15 +182,15 @@ html, body {
 .pageFir img:nth-child(1) {
     width: 8.56rem;
     height: 5rem;
-    margin-top: .3rem;
-    margin-left: -1.1rem;
+    top: .3rem;
+    left: -1.1rem;
 }
 
 .pageFir img:nth-child(2) {
     width: .72rem;
     height: .72rem;
-    margin-top: 4.4rem;
-    margin-left: 2.1rem;
+    top: 4.4rem;
+    left: 2.1rem;
 }
 
 #page1 img:nth-child(2) {
@@ -200,14 +201,14 @@ html, body {
 .pageFir img:nth-child(3) {
     width: 3.02rem;
     height: 3.3rem;
-    margin-top: 6.9rem;
-    margin-left: 1.7rem;
+    top: 6.9rem;
+    left: 1.7rem;
 }
 
 .pageFir span {
     opacity: 0;
-    margin-top: 4.64rem;
-    margin-left: .3rem;
+    top: 4.64rem;
+    left: .3rem;
     font-size: .4rem;
     font-weight: bold;
 }
@@ -229,8 +230,8 @@ html, body {
     opacity: 0;
     width: 3rem;
     height: 3rem;
-    margin-left: 3rem;
-    margin-top: .8rem;
+    left: 3rem;
+    top: .8rem;
 }
 
 #page2 img:nth-child(1) {
@@ -242,8 +243,8 @@ html, body {
     opacity: 0;
     width: 2.07rem;
     height: .55rem;
-    margin-top: .7rem;
-    margin-left: -.4rem;
+    top: .7rem;
+    left: -.4rem;
 
 }
 
@@ -256,8 +257,8 @@ html, body {
     opacity: 0;
     width: 2.37rem;
     height: .55rem;
-    margin-top: 3.2rem;
-    margin-left: 3.6rem;
+    top: 3.2rem;
+    left: 3.6rem;
 }
 
 #page2 img:nth-child(3) {
@@ -269,8 +270,8 @@ html, body {
     opacity: 0;
     width: 1.97rem;
     height: .35rem;
-    margin-top: 2.9rem;
-    margin-left: 5rem;
+    top: 2.9rem;
+    left: 5rem;
 }
 
 #page2 img:nth-child(4) {
@@ -281,15 +282,15 @@ html, body {
 .pageTwo img:nth-child(5) {
     width: .06rem;
     height: 100%;
-    margin-left: 1.1rem;
+    left: 1.1rem;
 }
 
 .pageTwo img:nth-child(6) {
     opacity: 0;
     width: .48rem;
     height: .5rem;
-    margin-top: 5.6rem;
-    margin-left: .4rem;
+    top: 5.6rem;
+    left: .4rem;
 }
 
 #page2 img:nth-child(6) {
@@ -301,8 +302,8 @@ html, body {
     opacity: 0;
     width: .52rem;
     height: .52rem;
-    margin-top: 6.4rem;
-    margin-left: .4rem;
+    top: 6.4rem;
+    left: .4rem;
 }
 
 #page2 img:nth-child(7) {
@@ -314,8 +315,8 @@ html, body {
     opacity: 0;
     width: .96rem;
     height: .96rem;
-    margin-top: 7.1rem;
-    margin-left: .16rem;
+    top: 7.1rem;
+    left: .16rem;
 }
 
 #page2 img:nth-child(8) {
@@ -327,8 +328,8 @@ html, body {
     opacity: 0;
     width: .52rem;
     height: .54rem;
-    margin-top: 8.2rem;
-    margin-left: .4rem;
+    top: 8.2rem;
+    left: .4rem;
 }
 
 #page2 img:nth-child(9) {
@@ -340,8 +341,8 @@ html, body {
     opacity: 0;
     width: .38rem;
     height: .6rem;
-    margin-top: 9.1rem;
-    margin-left: .4rem;
+    top: 9.1rem;
+    left: .4rem;
 }
 
 #page2 img:nth-child(10) {
@@ -352,8 +353,8 @@ html, body {
 .pageTwo img:nth-child(11) {
     width: 2.2rem;
     height: 1rem;
-    margin-top: 10.6rem;
-    margin-left: 2.18rem;
+    top: 10.6rem;
+    left: 2.18rem;
     transform: rotate(180deg);
 }
 
@@ -361,8 +362,8 @@ html, body {
     opacity: 0;
     width: .28rem;
     height: 1.36rem;
-    margin-top: 10rem;
-    margin-left: 3.07rem;
+    top: 10rem;
+    left: 3.07rem;
 }
 
 #page2 img:nth-child(12) {
@@ -373,19 +374,19 @@ html, body {
 .pageTwo span:nth-child(1) {
     opacity: 0;
     font-size: .48rem;
-    margin-top: 5.6rem;
-    margin-left: 1.3rem;
+    top: 5.6rem;
+    left: 1.3rem;
 }
 
 #page2 span:nth-child(1) {
     -webkit-animation: dou 2s 3.3s both;
-    animation: dou 2s 3.3s both;
+    animation: dou 2s 3.3s both , wobble 4s 7s infinite ;
 }
 
 .pageTwo .zhuan {
     opacity: 0;
-    margin-top: 6.4rem;
-    margin-left: 1.3rem;
+    top: 6.4rem;
+    left: 1.3rem;
 }
 
 #page2 .zhuan {
@@ -406,8 +407,8 @@ html, body {
 
 .pageTwo .bir {
     opacity: 0;
-    margin-top: 8.2rem;
-    margin-left: 1.3rem;
+    top: 8.2rem;
+    left: 1.3rem;
 }
 
 #page2 .bir {
@@ -417,8 +418,8 @@ html, body {
 
 .pageTwo .from {
     opacity: 0;
-    margin-top: 9.1rem;
-    margin-left: 1.3rem;
+    top: 9.1rem;
+    left: 1.3rem;
 
 }
 
@@ -442,8 +443,8 @@ html, body {
     width: 2.04rem;
     height: 2.04rem;
     border-radius: 50%;
-    margin-top: 1.1rem;
-    margin-left: 1.8rem;
+    top: 1.1rem;
+    left: 1.8rem;
     z-index: 10;
 }
 
@@ -455,12 +456,12 @@ html, body {
 .pageThree img:nth-child(2) {
     width: 1.88rem;
     height: 1.88rem;
-    margin-top: 1.2rem;
-    margin-left: 3rem;
+    top: 1.2rem;
+    left: 3rem;
 }
 
 #page3 img:nth-child(2) {
-    -webkit-animation: wobble 2.5s infinite;
+    -webkit-animation:  2.5s infinite;
     animation: wobble 2.5s infinite;
 }
 
@@ -468,8 +469,8 @@ html, body {
     width: 3.24rem;
     height: 3.36rem;
     border-radius: 50%;
-    margin-top: 3.2rem;
-    margin-left: 0.3rem;
+    top: 3.2rem;
+    left: 0.3rem;
 }
 
 #page3 img:nth-child(3) {
@@ -481,8 +482,8 @@ html, body {
     width: 2.4rem;
     height: 2.38rem;
     border-radius: 50%;
-    margin-top: 3rem;
-    margin-left: 3.3rem;
+    top: 3rem;
+    left: 3.3rem;
 }
 
 #page3 img:nth-child(4) {
@@ -494,8 +495,8 @@ html, body {
     width: 3.14rem;
     height: 2.4rem;
     border-radius: 50%;
-    margin-top: 7rem;
-    margin-left: .9rem;
+    top: 7rem;
+    left: .9rem;
 }
 
 #page3 img:nth-child(5) {
@@ -507,8 +508,8 @@ html, body {
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 50%;
-    margin-top: 7rem;
-    margin-left: 3.9rem;
+    top: 7rem;
+    left: 3.9rem;
 }
 
 #page3 img:nth-child(6) {
@@ -520,8 +521,8 @@ html, body {
     width: .5rem;
     height: .5rem;
     border-radius: 50%;
-    margin-top: 9rem;
-    margin-left: .6rem;
+    top: 9rem;
+    left: .6rem;
 }
 
 #page3 img:nth-child(7) {
@@ -533,8 +534,8 @@ html, body {
     width: .5rem;
     height: .5rem;
     border-radius: 50%;
-    margin-top: 2rem;
-    margin-left: .6rem;
+    top: 2rem;
+    left: .6rem;
 }
 
 #page3 img:nth-child(8) {
@@ -546,8 +547,8 @@ html, body {
     width: .4rem;
     height: .4rem;
     border-radius: 50%;
-    margin-top: 2.7rem;
-    margin-left: 3.1rem;
+    top: 2.7rem;
+    left: 3.1rem;
 }
 
 #page3 img:nth-child(9) {
@@ -568,19 +569,19 @@ html, body {
 .pageFour img:nth-child(1) {
     width: 2.08rem;
     height: .72rem;
-    margin-top: .5rem;
-    margin-left: .6rem;
+    top: .5rem;
+    left: .6rem;
 }
 #page4 img:nth-child(1){
-    -webkit-animation: wobble 2.5s 1;
-    animation: wobble 2.5s 1;
+    -webkit-animation: wobble 2.5s infinite;
+    animation: wobble 2.5s infinite;
 }
 .pageFour img:nth-child(2) {
     opacity: 0;
     width: .66rem;
     height: 1.28rem;
-    margin-top: 2rem;
-    margin-left: 4.6rem;
+    top: 2rem;
+    left: 4.6rem;
     transform: skew(-10deg, 0deg)
 }
 #page4 img:nth-child(2){
@@ -603,8 +604,8 @@ html, body {
     opacity: 0;
     width: .66rem;
     height: 1.28rem;
-    margin-top: 6rem;
-    margin-left: 4rem;
+    top: 6rem;
+    left: 4rem;
     transform: skew(-5deg, 0deg)
 }
 #page4 img:nth-child(4){
@@ -616,8 +617,8 @@ html, body {
     opacity: 0;
     width: .66rem;
     height: 1.28rem;
-    margin-top: 8rem;
-    margin-left: 2rem;
+    top: 8rem;
+    left: 2rem;
     transform: skew(5deg, 0deg)
 }
 #page4 img:nth-child(5){
@@ -633,8 +634,8 @@ html, body {
     background: #676767;
     width: 3.5rem;
     height: .03rem;
-    margin-top: 2.7rem;
-    margin-left: 1.2rem;
+    top: 2.7rem;
+    left: 1.2rem;
 }
 #page4 .line1{
     -webkit-animation: change 2.5s 3s 1 both;
@@ -645,8 +646,8 @@ html, body {
     background: #676767;
     width: 3rem;
     height: .04rem;
-    margin-top: 4.71rem;
-    margin-left: 3rem;
+    top: 4.71rem;
+    left: 3rem;
 }
 #page4 .line2{
     -webkit-animation: change1 2.5s 2.5s 1 both;
@@ -657,8 +658,8 @@ html, body {
     background: #676767;
     width: 3.5rem;
     height: .03rem;
-    margin-top: 6.7rem;
-    margin-left: .65rem;
+    top: 6.7rem;
+    left: .65rem;
 }
 #page4 .line3{
     -webkit-animation: change 2.5s 2s 1 both;
@@ -669,8 +670,8 @@ html, body {
     background: #676767;
     width: 3.5rem;
     height: .03rem;
-    margin-top: 8.7rem;
-    margin-left: 2.4rem;
+    top: 8.7rem;
+    left: 2.4rem;
 }
 #page4 .line4{
     -webkit-animation: change 2.5s 1.5s 1 both;
