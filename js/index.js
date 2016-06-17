@@ -2,7 +2,7 @@
 ~function (desW) {
     var winW = document.documentElement.clientWidth;
     document.documentElement.style.fontSize = winW / desW * 100 + "px";
-}(750);
+}(1280);
 
 //->给滑屏区域进行初始化设置
 ~function () {
